@@ -6,10 +6,16 @@ using System.Threading.Tasks;
 
 namespace Grades
 {
-    class GradeStatistics
+    public class GradeStatistics
     {
-        public float AverageGrade = 0;
-        public float HighestGrade = 0;
-        public float LowestGrade = float.MaxValue;
+        public GradeStatistics()
+        {
+            AverageGrade = 0;
+            HighestGrade = 0;
+            LowestGrade = float.MaxValue;
+        }
+        public float AverageGrade;
+        public float HighestGrade;
+        public float LowestGrade;
     }
 }
