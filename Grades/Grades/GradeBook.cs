@@ -10,8 +10,8 @@ namespace Grades
     {
         public void AddGrade(float grade)
         {
-            grades.Add (grade);
+            grades.Add(grade);
         }
-        List<float> grades;
+        List<float> grades = new List<float>();
     }
 }
